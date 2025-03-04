@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+h3{
+    margin-top: 1rem;
+    font-weight:bold;
+}
+h1{
+    font-weight: bolder;
+}
+.outer{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    /* background-color: white; */
+    height: auto;
+    width: 90%;
+    max-width: 400px;
+    margin-top: 1rem;
+}
+#first,#second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0.5rem;
+}
+.inner{
+    height: 9rem;
+    width: 9rem;
+    border: 6px solid black;
+    margin: 1.5rem;
+    border-radius: 50%;
+}
+.red{
+    background-color: red;
+}
+.darkgreen{
+    background-color: darkgreen;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.flash{
+    background-color: white;
+}
+.userFlash{
+    background-color: aqua;
+}
+.gameOver{
+    background-color: red;
+}
